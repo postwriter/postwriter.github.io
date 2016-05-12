@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(ufonts.com_american-typewriter.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+.bgImage {
+	background: url("img/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:100%;
+	width:100%;
+}
+
+.content {
+	width:70%;
+	height:100%;
+	margin: 0 auto;
+	font-family: myFirstFont;
+
+}
+
+.whiteLogo {
+	width:80%;
+	margin: 0 auto; 
+	display:block;
+	margin-top: 100px;
+}
+
+
+.header {
+	padding-top: 30px;
+	color:white;
+	/*border-style: solid;*/
+/*    border-bottom: 1px solid;
+    border-bottom-color: rgba(255,255,255,0.65);*/
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: myFirstFont;
+}
+
+.description {
+	text-align:center;
+	color: white;
+	font-size: 1.4em;
+	margin-top:60px;
+}
